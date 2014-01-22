@@ -7,9 +7,6 @@ The implementation contains 2 methods and a single data structure (type):
 - StockQuote GetStockQuote(string) 
 - StockQuote[] GetStockQuotes(string[]) 
 
-WSDL : http://services.nexus6studio.com/StockQuoteService.asmx?WSDL 
-URL/Endpoint : http://services.nexus6studio.com/StockQuoteService.asmx 
-
 Simple Example: 
 ServiceReference1.StockQuoteServiceSoapClient stockquotesvc = new ServiceReference1.StockQuoteServiceSoapClient();
 ServiceReference1.StockQuote stockQuote= stockquotesvc.GetStockQuote("t");
