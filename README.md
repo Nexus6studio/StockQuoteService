@@ -14,5 +14,8 @@ The implementation contains 2 methods and a single data structure (type):
 
 Simple Example: 
 ServiceReference1.StockQuoteServiceSoapClient stockquotesvc = new ServiceReference1.StockQuoteServiceSoapClient();
+
 ServiceReference1.StockQuote stockQuote= stockquotesvc.GetStockQuote("t");
+
 Console.WriteLine(stockQuote.LastTrade);
+
